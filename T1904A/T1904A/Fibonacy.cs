@@ -8,7 +8,7 @@ namespace T1904A
             Console.WriteLine("Nhap n");
             int n = Convert.ToInt32(Console.ReadLine());
           Console.WriteLine();
-          for (int i = 1; i < 100; i++)
+          for (int i = 1;; i++)
           {
               if (n > Fibonacci(i) & n < Fibonacci(i + 1))
               {
